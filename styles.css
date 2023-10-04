@@ -1,0 +1,85 @@
+
+/** {
+    background-color: aqua;
+}*/
+
+html {
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(245, 231, 233);
+}
+
+.therapist-name {
+    text-align: center;
+    
+}
+
+.profile-photo {
+    /*justify-content: center;*/
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /*border: 1px solid red;*/
+}
+
+.cropped-image {
+    text-align: center;
+}
+
+.introduction {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services-container{
+    /*border: 1px solid red;*/
+    
+}
+
+.services {
+    /*border: 1px solid red;*/
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    list-style-type: none;
+   
+}
+
+.notes {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.contact-messenger {
+    text-align: center;
+    margin: auto auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    /*border: 1px solid red;*/
+    background-color: rgb(250, 179, 190);
+    
+    margin-bottom: 100px;
+}
+
+.contact-messenger h4 {
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 390px) {
+   
+        .services {
+            /*border: 1px solid red;*/
+            width: 80%;
+            margin-left: 10%;
+            /*margin-right: auto;*/
+        }
+    
+}
